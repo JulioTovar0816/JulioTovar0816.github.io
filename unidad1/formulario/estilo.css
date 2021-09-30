@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.preguntas{
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+.nombre{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    border: 1px solid black;
+}
+.carros{
+
+    border: 1px solid black;
+
+}
+
+.pregunta{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+.opcion{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.tabla{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.dispositivos{
+    border: 1px solid black;
+}
+
+.carrera{
+    border: 1px solid black;
+}
+
+.comentar{
+    border: 1px solid black;
+}
+
+.ingles{
+    border: 1px solid black;
+}
+
+.opinion{
+    border: 1px solid black;
+}
+
+.cumple{
+    border: 1px solid black;
+}
+
+.extra{
+    border: 1px solid black;
+}
