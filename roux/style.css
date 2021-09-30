@@ -1,0 +1,94 @@
+@media screen and (min-width: 1000px){
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenido{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+body{
+    background-image: url("img/background_buildings.png");
+}
+
+.encabezado{
+    background-color: black;
+    display:flex;
+}
+
+.textocab{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+.texto{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.navegar{
+    background-color: orangered;
+}
+
+.navegar a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 5px;
+    color: black;
+}
+
+.contenido2{
+    background-color: blanchedalmond;
+    width: 60%;
+    float: left;
+    height: 475px;
+}
+
+.titulo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+
+.titulo2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: red;
+}
+
+aside{
+    width: 40%;
+    background-color: blanchedalmond;
+    float: left;
+    
+}
+
+footer{
+    background-color: black;
+}
+
+.pies{
+    background-color:black;
+    color: white;
+    width: 60%;
+    float: left;
+}
+
+.pies2{
+    background-color:black;
+    color: white;
+    width: 40%;
+    height: 103px;
+    float: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+}
+
+.pies2 a{
+    margin: 2px;
+}
+}
+
