@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.body{
+    background-color: gray;
+}
+
+.contenedor{
+    max-width: 1000px;
+    margin: 0 auto;
+   
+}
+
+.cabecera{
+    background-color: rgb(53, 179, 53);
+}
+
+.texto{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
