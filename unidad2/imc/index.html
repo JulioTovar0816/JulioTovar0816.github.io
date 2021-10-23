@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+       
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="contenedor">
+        <header class="cabecera"><h1>Calcular IMC</h1></header>
+        <section>
+
+            <div>
+                    <br />
+                    <label class="etiqueta">Peso: </label>
+                    <input type="text" name="" class="peso" id="peso" placeholder="Ingresa tu peso en kg">
+                    <br />
+                    <br />
+                    <label class="etiqueta">Estatura: </label>
+                    <input type="text" name="" class="estatura" id="estatura" placeholder="Ingresa tu estatura en metros">
+                    <br />
+                    <br />
+                    <input type="submit" onclick="calcula();" class="boton" id="boton" name="btn" value="Calcular">
+                    <input type="submit" onclick="limpiar();" class="boton" id="boton" name="" value="Reiniciar">
+                    <br />
+                    <br />
+               
+            </div>
+            <div>
+                <h1>Resultados</h1>
+            </div>
+            <br />
+            <div>
+                <label class="etiqueta">IMC: </label>
+                <input type="text" class="resultadoimc" id="mostrar">
+            </div>
+
+            <br />
+
+
+            <div class="categoria">
+                <label class="etiqueta">Categoria: </label>
+                <h4 id="categoria"> </h4>
+            </div>
+        </section>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>

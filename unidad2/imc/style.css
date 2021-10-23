@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.cabecera{
+    background-color:rgb(78, 112, 207);
+}
+body{
+    background-color: gray;
+}
+.contenedor{
+    margin: 0 auto;
+    width: 400px;
+    background-color: rgb(207, 78, 78);
+    height: 500px;
+}
+
+.peso{
+    box-align: center;
+    height: 25px;
+    width: 150px;
+}
+
+.estatura{
+    height: 25px;
+    width: 150px;
+}
+
+.boton{
+    font-size: 25px;
+    font-family: "Helvetica Neue", Helvetica, Arial,;
+    height: 30px;
+    width: 100px;
+}
+
+.etiqueta{
+    font-size: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial,;
+}
+
+.categoria{
+    display: flex;
+}
+
+.resultadoimc{
+    height: 25px;
+    width: 150px;
+}
