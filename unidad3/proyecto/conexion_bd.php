@@ -1,8 +1,8 @@
 <?php
 
-     $bd = 'id17626021_roux_db';
+     $bd = 'roux_db';
     $servidor = 'localhost';
-    $usuario = 'id17626021_root';
+    $usuario = 'root';
     $contrasena = 'lkwyiRK^loA9#MGU';
     $conexion = mysqli_connect($servidor, $usuario, $contrasena, $bd);
 
