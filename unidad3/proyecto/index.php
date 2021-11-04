@@ -7,9 +7,9 @@
 </head>
 <body id="page_home">
 <div class="wrapper">
-
+  <?php session_start(); ?>
   <?php
-    session_start();
+    
     if(isset($_SESSION['usuario'])){
       $usuario_actual = $_SESSION['usuario'];
 
@@ -20,9 +20,9 @@
       }
       
     }
-  /*  if(!(isset($_SESSION['usuario']))){
+    if(!(isset($_SESSION['usuario']))){
       include 'includes/header.php';
-    }*/
+    }
   ?>
 
   <!-- Rotator -->
