@@ -7,9 +7,10 @@
 </head>
 <body id="page_home">
 <div class="wrapper">
-  <?php session_start(); ?>
+  
   <?php
-    
+    session_start(); 
+    include 'conexion_bd.php';
     if(isset($_SESSION['usuario'])){
       $usuario_actual = $_SESSION['usuario'];
 
