@@ -20,9 +20,9 @@
       }
       
     }
-    if(!(isset($_SESSION['usuario']))){
+  /*  if(!(isset($_SESSION['usuario']))){
       include 'includes/header.php';
-    }
+    }*/
   ?>
 
   <!-- Rotator -->
