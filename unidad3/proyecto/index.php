@@ -9,7 +9,7 @@
 <div class="wrapper">
 
   <?php
-    //session_start();
+    session_start();
     if(isset($_SESSION['usuario'])){
       $usuario_actual = $_SESSION['usuario'];
 
